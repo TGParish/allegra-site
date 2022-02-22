@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container h3 {
+  text-align: center;
+}
+
+.svgContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#haters {
+  color: red;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-359deg);
+  }
+}
+
+#ouro {
+  animation: spin 20s linear infinite;
+}
